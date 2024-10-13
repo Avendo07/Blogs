@@ -1,7 +1,9 @@
+#Hugo
+./blogs/public/
+
 #Devbox
 .devbox
 
 #IntelliJ
 *.iml
 *.idea
-
