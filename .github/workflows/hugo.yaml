@@ -44,11 +44,15 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          sparse-checkout: |
+            blogs
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Switch Directory
+        run: cd blogs
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
