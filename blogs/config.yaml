@@ -3,6 +3,10 @@ languageCode : 'en-us'
 title : 'Tech Board'
 theme: 'hugo-profile'
 
+relativeURLs: true
+canonifyURLs: true
+
+
 outputs:
   home:
     - "HTML"
