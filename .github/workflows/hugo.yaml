@@ -66,9 +66,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: >
-            ./blogs/resources/
-            ./blogs/public/
+          path: ./blogs/{resources, public}
 
   # Deployment job
   deploy:
