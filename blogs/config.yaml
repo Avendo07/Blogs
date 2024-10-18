@@ -158,8 +158,8 @@ params:
     title: "About Me"
     image: /images/about/me.png
     content: |-
-      I am an infrastructure engineer with a passion for cloud computing. I have a background in computer science and have worked on the production releases of multiple applications. Currently working at **[Thoughtworks](https://www.thoughtworks.com/)**. </br></br>
-      I personally love listening to music and playing some video games. Have a knack for computer hardware (server or client) so I keep up to date with any hardware news, which boils down to I am the free IT for my friends and family :upside_down_face:. </br>
+      I am an infrastructure engineer with a passion for cloud computing. I have a background in computer science and have worked on the production releases of multiple applications. Currently working at [Thoughtworks](https://www.thoughtworks.com/). </br>
+      I personally love listening to music and playing some video games. Have a knack for computer hardware(server or client) so I keep up to date with any hardware news, which boils down to I am the free IT for my friends and family :upside_down_face:. </br>
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"

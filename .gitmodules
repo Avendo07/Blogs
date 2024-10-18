@@ -1,9 +1,9 @@
 [submodule "blogs/themes/ananke"]
 	path = blogs/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "blogs/themes/hugo-profile"]
+	path = blogs/themes/hugo-profile
+	url = https://github.com/Avendo07/hugo-profile.git
 [submodule "fork"]
 	path = blogs/themes/hugo-profile
 	url = https://github.com/Avendo07/hugo-profile.git
-[submodule "blogs/content/blogs"]
-	path = blogs/content/blogs
-	url = https://github.com/Avendo07/hosted-blogs.git
