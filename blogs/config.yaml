@@ -2,7 +2,6 @@ baseURL : 'https://avendo07.github.io/'
 languageCode : 'en-us'
 title : 'Tech Board'
 theme: 'hugo-profile'
-
 relativeURLs: true
 canonifyURLs: true
 
@@ -16,15 +15,16 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  highlight:
+    style: monokai
+    tabWidth: 4
 
 Menus:
   main:
@@ -101,7 +101,7 @@ params:
       textLinkColor: "#2E8BC0"
   #     backgroundColor: "#18191a"
   #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
+      primaryColor: "#AAAAAA"
   #     secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
