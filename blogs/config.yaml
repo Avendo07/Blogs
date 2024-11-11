@@ -26,6 +26,7 @@ markup:
     style: monokai
     tabWidth: 4
 
+#Theme Config
 Menus:
   main:
     - identifier: blog
