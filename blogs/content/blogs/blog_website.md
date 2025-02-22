@@ -3,6 +3,7 @@ title = 'Building and hosting your own blog site'
 date = 2024-11-11T11:00:00+05:30
 draft = false
 summary = "A step-by-step guide to creating and deploying a personal blog using Hugo and GitHub Pages."
+tags = ["Github Pages", "Hugo", "Website"]
 +++
 
 ## How it started?
