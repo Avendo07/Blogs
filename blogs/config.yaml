@@ -159,7 +159,7 @@ params:
     title: "About Me"
     image: /images/about/me.png
     content: |-
-      I am an infrastructure engineer with a passion for cloud computing. I have a background in computer science and have worked on the production releases of multiple applications. Currently working at [Thoughtworks](https://www.thoughtworks.com/). </br>
+      I am an infrastructure engineer with a developer background and a passion for cloud computing. I have worked on the production releases of multiple applications their life cycle management. Currently working at [Thoughtworks](https://www.thoughtworks.com/). </br>
       I personally love listening to music and playing some video games. Have a knack for computer hardware(server or client) so I keep up to date with any hardware news, which boils down to I am the free IT for my friends and family :upside_down_face:. </br>
     skills:
       enable: true
@@ -171,114 +171,46 @@ params:
         - "Docker"
         - "Azure"
         - "AWS"
+        - "MLOps"
 
   # Experience
   experience:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Infrastructure Engineer"
+        company: "Thoughtworks"
+        companyUrl: "https://www.thoughtworks.com/"
+        date: "March 2022 - present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          I am currently working as an Infrastructure Engineer at [Thoughtworks](https://thoughtworks.com). 
+          - Designed and implemented cloud solutions using Infrastructure as Code (IaC) with Terraform across AWS and Azure.
+          - Managed and optimized Kubernetes environments using Helm for efficient deployment and scaling.
+          - Built and automated CI/CD pipelines using a GitOps approach with ArgoCD for application deployment on Kubernetes and cloud environments.
+          - Developed and automated end-to-end CI/CD pipelines for seamless application deployment and infrastructure management.
 
   # Education
   education:
-    enable: false
+    enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Technology in Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "BVCOE, GGSIPU, Delhi"
+          url: "https://bvcoend.ac.in/"
+        date: "July 2018 - June 2022"
+        CGPA: "9.1 out of 10.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          I worked on a flutter application in college that was deployed on Google Play store at a startup.
+          
+          I Published two papers in the ELSEVIER Journal on Machine Learning projects in 2022.
+          - [Mortality prediction of COVID-19 patients using soft voting classifier](https://www.sciencedirect.com/science/article/pii/S2666307422000183?via%3Dihub)
+          - [Fake News Classification using transformer based enhanced LSTM and BERT](https://www.sciencedirect.com/science/article/pii/S2666307422000092?via%3Dihub)
 
   # Achievements
   achievements:
