@@ -139,7 +139,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1wlBwmUE9f64yMIebnHckyZoZxtX_JulU/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1AoHfF0pEBu6eS4KYYefzKwxZpnWbMHzV/view?usp=sharing"
 #      url: ""        #TODO: Add this as an expired blog
       download: true
       newPage: true
@@ -236,53 +236,56 @@ params:
 
   # projects
   projects:
-    enable: false
-#    title: "Custom Name"
+    enable: true
+    title: "Personal Projects"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Data Backup Application Helm Chart
+        content: Helm Chart to deploy Syncthing application
+#        image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Source
+          link: https://github.com/syncthing/syncthing
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Helm"
+          - "Kubernetes"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/Avendo07/syncthing_helm
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Personal Finance Web Application Helm Chart
+        content: Helm Chart to deploy Firefly-III application
+#        image: /images/projects/converter.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Source
+          link: https://github.com/firefly-iii/firefly-iii
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Helm"
+          - "Kubernetes"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Avendo07/firefly-helm
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Service to automate syncing between google sheets and hosted application
+        content: A simple service to automate the syncing between google sheets and a hosted application using golang and google sheets api
+#        image: /images/projects/profile2.jpg
+#        featured:
+#          name: Source
+#          link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Golang"
+          - "Google Sheets API"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Avendo07/sheets_data_sync.git
+
+      - title: Personal Finance App on Azure
+        content: Terraform stack to deploy Personal Finance App using terraform stack on Azure Cloud
+        badges:
+          - "Azure"
+          - "Terraform"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Avendo07/firefly-tf-azure
 
   #Contact
   contact:
