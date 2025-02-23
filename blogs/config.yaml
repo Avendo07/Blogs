@@ -243,7 +243,7 @@ params:
         content: Helm Chart to deploy Syncthing application
 #        image: /images/projects/profile.png
         featured:
-          name: Source
+          name: Application
           link: https://github.com/syncthing/syncthing
         badges:
           - "Helm"
@@ -256,7 +256,7 @@ params:
         content: Helm Chart to deploy Firefly-III application
 #        image: /images/projects/converter.jpg
         featured:
-          name: Source
+          name: Application
           link: https://github.com/firefly-iii/firefly-iii
         badges:
           - "Helm"
