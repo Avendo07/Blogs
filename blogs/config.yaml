@@ -149,6 +149,8 @@ params:
           url: https://github.com/Avendo07
         - icon: fab fa-linkedin-in
           url: https://www.linkedin.com/in/namankaushik0712/
+        - icon: fab fa-aws
+          url: https://www.linkedin.com/in/namankaushik0712/
 #      customIcons:
 #        - icon: /fav.png
 #          url: "https://example.com"
