@@ -139,7 +139,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1AoHfF0pEBu6eS4KYYefzKwxZpnWbMHzV/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1UOEilgTRLx4WRsguSGalJT9_ISH3C-1T/view?usp=sharing"
 #      url: ""        #TODO: Add this as an expired blog
       download: true
       newPage: true
